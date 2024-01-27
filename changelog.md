@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Calculadora de Media]
 
+## [0.0.5] - 2024-01-26
+
+### Added
+
+- Adição de atividades e notas no corpo da tabela JS
+
+## [0.0.4] - 2024-01-25
+
+### Added
+
+- Estilização no css
+
 ## [0.0.3] - 2024-01-24
 
 ### Added
