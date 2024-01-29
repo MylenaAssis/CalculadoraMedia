@@ -21,16 +21,20 @@ function adicionaLinha() {
     const inputNomeAtividade = document.getElementById('nomeAtividade');
     const inputNotaAtividade = document.getElementById('notaAtividade');
 
-    atividades.push(inputNomeAtividade.value);
-    notas.push(parseFloat(inputNotaAtividade.value));
+    if(atividades.includes(inputNomeAtividade.value)) {
+        alert(`A atividade ${inputNomeAtividade.value} já foi cadastrada.`)
+    } else {
+        atividades.push(inputNomeAtividade.value);
+        notas.push(parseFloat(inputNotaAtividade.value));
 
-    let linha = '<tr>';
-    linha += `<td>${inputNomeAtividade.value}</td>`;
-    linha += `<td>${inputNotaAtividade.value}</td>`;
-    linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td>`;
-    linha += '</tr>';
+        let linha = '<tr>';
+        linha += `<td>${inputNomeAtividade.value}</td>`;
+        linha += `<td>${inputNotaAtividade.value}</td>`;
+        linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td>`;
+        linha += '</tr>';
 
-    linhas += linha
+        linhas += linha
+    }
 
     inputNomeAtividade.value = '';
     inputNotaAtividade.value = '';
