@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Calculadora de Media]
 
-## [0.0.5] - 2024-01-26
+## [0.0.7] - 2024-01-29
+
+### Added
+
+- Calculo da média e parametrização da nota mínima para aprovação
+
+## [0.0.6] - 2024-01-27
+
+### Fixed
+
+- Desmembrar funçoes, boas praticas
+
+## [0.0.5] - 2024-01-2
 
 ### Added
 
