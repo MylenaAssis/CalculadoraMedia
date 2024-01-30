@@ -3,8 +3,8 @@ const imgAprovado = '<img src="./images/aprovado.png" alt="emoji celebrando"/>'
 const imgReprovado = '<img src="./images/reprovado.png" alt="emoji triste"/>'
 const atividades = [];
 const notas = [];
-const spanAprovado = '<span class="resultadoaprovado>Aprovado</span>';
-const spanReprovado = '<span class="resultadoreprovado>Reprovado</span>';
+const spanAprovado = '<span class="resultado aprovado">Aprovado</span>';
+const spanReprovado = '<span class="resultado reprovado">Reprovado</span>';
 const notaMinima = parseFloat(prompt("Digite a nota mínima:"))
 
 
@@ -49,7 +49,7 @@ function atualizaMediaFinal () {
     const mediaFinal = calculaMediaFinal();
 
     document.getElementById('media-final-valor').innerHTML = mediaFinal;
-    document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? 'Aprovado' : 'Reprovado';
+    document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 }
 
 function calculaMediaFinal() {

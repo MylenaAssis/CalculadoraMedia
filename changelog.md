@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Calculadora de Media]
 
+## [0.0.9] - 2024-01-29
+
+### Fixed
+
+- Estilização do span que exibe resultado final nao funcionava por erro de digitação.
+
+## [0.0.8] - 2024-01-29
+
+### Fixed
+
+- Removido bug - permitir cadastro de atividade duplicada. Verificação pelo nome.
+
 ## [0.0.7] - 2024-01-29
 
 ### Added
