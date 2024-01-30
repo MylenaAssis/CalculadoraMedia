@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Calculadora de Media]
 
+## [0.1.0] - 2024-01-30
+
+### Fixed
+
+- Definir quantidade de casas decimais exibidas no resultado.
+
 ## [0.0.9] - 2024-01-29
 
 ### Fixed
